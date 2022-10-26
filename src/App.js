@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { createContext, useReducer } from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Contact from './components/Contact'
+import Register from './components/Register'
+import Login from './components/Login'
+import Logout from './components/Logout'
+import Explore from './components/Explore'
+import Cart from './components/Cart'
+import {
+  Routes,
+  Route
+} from "react-router-dom";
+export const UserContext = createContext();
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+const initialState = null;
+const reducer = (state,action) => {
+    if (action.type === "USER") {
+        return action.payload;
+    }
+    return state;
 }
 
-export default App;
+const [state, dispatch] = useReducer(reducer, initialState)
+
+  return (
+    <>
+      <UserContext.Provider value={{state,dispatch}}>
+        <Navbar/>
+        <Routes>
+          <Route exact path='/' element={<Home/>}></Route>
+          <Route path='/explore' element={<Explore/>}></Route>
+          <Route path='/cart' element={<Cart/>}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/logout' element={<Logout/>}></Route>
+          <Route path='/register' element={<Register/>}></Route>
+        </Routes>
+      </UserContext.Provider>
+    </>
+  )
+}
+
+export default App
