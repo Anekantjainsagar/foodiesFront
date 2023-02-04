@@ -24,7 +24,7 @@ const Register = () => {
 
     const { name, email, number, password, cpassword } = user;
 
-    const res = await fetch("https://foodies-d3kg.onrender.com/register", {
+    const res = await fetch("https://foodiesbackend.onrender.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

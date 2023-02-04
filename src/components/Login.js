@@ -12,7 +12,7 @@ const Login = () => {
   const postData = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://foodies-d3kg.onrender.com/login", {
+    const res = await fetch("https://foodiesbackend.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
