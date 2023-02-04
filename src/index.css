@@ -1,37 +1,37 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-.navbar{
+.navbar {
   padding: 0;
 }
 
 body::-webkit-scrollbar {
-  width: 4px;               
+  width: 4px;
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent;  
-  position: relative;    
+  background: transparent;
+  position: relative;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: gray;
-  border-radius: 20px;        
+  border-radius: 20px;
 }
 
 /* ///////////////////////REGISTRATION PAGE CSS///////////////////////////////// */
-.registrationBox{
+.registrationBox {
   background-color: #f5f6f8;
   width: 100%;
   height: 90vh;
   padding-top: 2rem;
 }
 
-.registerBox{
+.registerBox {
   background-color: white;
   width: 60vw;
   height: 75vh;
@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
-.registrationCredentials{
+.registrationCredentials {
   height: 100%;
   width: 100vw;
   display: flex;
@@ -52,14 +52,14 @@ body::-webkit-scrollbar-thumb {
   padding-right: 8rem;
 }
 
-.registrationCredentials h1{
+.registrationCredentials h1 {
   font-weight: 600;
   font-size: 2.3rem;
   padding: 0.5rem 0 0 1.8rem;
   margin-bottom: 0;
 }
 
-.registrationCredentials input{
+.registrationCredentials input {
   border-bottom: 1px solid gray;
   padding-left: 0.5rem;
   border-top: none;
@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
   outline: none;
 }
 
-.registrationCredentials .btn{
+.registrationCredentials .btn {
   display: block;
   margin-left: 2rem;
   height: 2rem;
@@ -86,12 +86,12 @@ body::-webkit-scrollbar-thumb {
   padding: 0.7rem 1rem;
 }
 
-.img .registerImg{
+.img .registerImg {
   width: 100%;
   display: block;
 }
 
-.switch{
+.switch {
   font-size: 0.9rem;
   text-decoration: none;
   display: block;
@@ -102,7 +102,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 0.25rem;
 }
 
-.button{
+.button {
   padding: 0.2rem 1rem;
   outline: none;
   margin-top: 1rem;
@@ -114,43 +114,42 @@ body::-webkit-scrollbar-thumb {
   display: block;
 }
 
-button:hover{
+button:hover {
   color: rgb(41, 170, 221);
   background-color: transparent;
   border: 1px solid rgb(41, 170, 221);
 }
 
 /* ///////////LOGIN PAGE CSS///////////////// */
-.loginImg{
+.loginImg {
   width: 100%;
   display: block;
 }
 
-.alignCenter{
+.alignCenter {
   justify-content: center;
 }
 
-
 /* /////////////////////////////////CONTACT PAGE CSS///////////////////////////////// */
-.container2{
+.container2 {
   width: 75vw;
   margin: 4rem auto;
 }
 
-.contactMain{
+.contactMain {
   display: flex;
 }
 
-.contactImg{
+.contactImg {
   width: 38vw;
 }
 
-.contactContent h1{
+.contactContent h1 {
   font-size: 2.3rem;
   margin-top: 1.5rem;
 }
 
-.contactContent input{
+.contactContent input {
   display: block;
   width: 25vw;
   height: 5vh;
@@ -159,12 +158,12 @@ button:hover{
   border-top: none;
   border-radius: 0.5rem;
   border-left: none;
-  border-right: none; 
+  border-right: none;
   outline: none;
   margin-top: 1rem;
 }
 
-.contactContent textarea{
+.contactContent textarea {
   border: 1px solid gray;
   border-radius: 0.5rem;
   margin-top: 1rem;
@@ -173,8 +172,9 @@ button:hover{
 }
 
 /* ////////////////////////////EXPLORE PAGE CSS////////////////////////// */
-.exploreContainer{
-  background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+.exploreContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
   background-repeat: no-repeat;
   backface-visibility: 50%;
   margin: 0;
@@ -188,29 +188,28 @@ button:hover{
   justify-content: center;
 }
 
-.exploreContainer h2{
+.exploreContainer h2 {
   font-size: 3rem;
   font-weight: 700;
 }
 
-.exploreContainer p{
+.exploreContainer p {
   font-size: 2.5rem;
   font-weight: 400;
 }
 
-.exploreContainer .search{
+.exploreContainer .search {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-
-.searchBar::placeholder{
+.searchBar::placeholder {
   color: white;
   opacity: 0.6;
 }
 
-.exploreContainer .searchBar{
+.exploreContainer .searchBar {
   width: 35%;
   display: block;
   background-color: transparent;
@@ -224,13 +223,13 @@ button:hover{
   text-align: center;
 }
 
-.exploreContainer .search span{
+.exploreContainer .search span {
   display: block;
   cursor: pointer;
 }
 
 /* ///////////////////////////////CARD STYLING/////////////////////////////////// */
-.col-md-3{
+.col-md-3 {
   cursor: pointer;
   width: 19.5%;
   margin: 1.5rem auto;
@@ -239,30 +238,30 @@ button:hover{
   transition: all 0.5s ease-in-out;
 }
 
-.col-md-3:hover{
+.col-md-3:hover {
   transform: scale(1.08);
 }
 
-.col-md-3 img{
+.col-md-3 img {
   display: block;
   margin: auto;
   width: 90%;
   border-radius: 1rem;
 }
 
-.col-md-3 .title{
+.col-md-3 .title {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 500;
 }
 
-.desc{
+.desc {
   width: 95%;
   margin: 0.5rem auto;
   text-align: center;
 }
 
-.finalSection{
+.finalSection {
   display: flex;
   width: 90%;
   margin: auto;
@@ -271,7 +270,7 @@ button:hover{
   align-items: center;
 }
 
-.cartBtn{
+.cartBtn {
   outline: none;
   border: 1px solid transparent;
   background-color: rgb(31, 168, 223);
@@ -281,22 +280,21 @@ button:hover{
   transition: all 0.5s ease-in-out;
 }
 
-.price{
+.price {
   font-size: 1.3rem;
 }
 
-
 /* ////////////////////////////////CART PAGE STYLING///////////////////////////// */
-.cartPage{
+.cartPage {
   display: flex;
   justify-content: space-evenly;
 }
 
-.cartDisplay{
+.cartDisplay {
   width: 73%;
 }
 
-.displaySection{
+.displaySection {
   background-color: rgb(240, 240, 240);
   border-radius: 1rem;
   display: flex;
@@ -305,18 +303,18 @@ button:hover{
   width: 100%;
 }
 
-.displaySection img{
+.displaySection img {
   width: 15%;
   border-radius: 1rem;
   margin-right: 1rem;
 }
 
-.displaySection h1{
+.displaySection h1 {
   font-size: 1.55rem;
   margin: 0;
 }
 
-.displaySection .extraCheese{
+.displaySection .extraCheese {
   padding: 0.1rem 0.5rem;
   border-radius: 0.5rem;
   outline: none;
@@ -326,45 +324,45 @@ button:hover{
   background-color: rgb(0, 183, 255);
 }
 
-.extraCheese:hover{
+.extraCheese:hover {
   background-color: transparent;
   color: rgb(0, 183, 255);
   border: 1px solid rgb(0, 183, 255);
 }
 
-.mrpSection{
+.mrpSection {
   background-color: rgb(240, 240, 240);
   box-shadow: 1px 1px 5px 1px gray;
   border-radius: 1rem;
   width: 23%;
-  height: 40vh;
+  height: 42vh;
   padding: 0.5rem;
 }
 
-.paySection{
+.paySection {
   display: flex;
   justify-content: space-evenly;
 }
 
-.paySection p{
+.paySection p {
   margin-top: 0.2rem;
   cursor: pointer;
   margin-bottom: 0;
 }
 
-.priceSection select{
+.priceSection select {
   margin-top: 0.15rem;
   cursor: pointer;
   background-color: transparent;
   outline: none;
 }
 
-.priceSection select option{
+.priceSection select option {
   cursor: pointer;
   background-color: rgb(240, 240, 240);
 }
 
-.mrpSection .payment{
+.mrpSection .payment {
   display: block;
   margin: 0.6rem auto;
   padding: 0.1rem 0.5rem;
@@ -376,26 +374,26 @@ button:hover{
   transition: all 0.5s ease-in-out;
 }
 
-.payment:hover{
+.payment:hover {
   border: 1px solid rgb(0, 183, 255);
   color: rgb(0, 183, 255);
   background-color: transparent;
 }
 
 /* //////////////////////////HOME PAGE STYING///////////////////////////////// */
-.mainPage{
-  background: url('https://wallpaperaccess.com/full/866650.jpg');
+.mainPage {
+  background: url("https://wallpaperaccess.com/full/866650.jpg");
   background-size: 110%;
   background-position: left;
   background-repeat: no-repeat;
   width: 100%;
-  height:90.3vh;
+  height: 90.3vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.mainPage h1{
+.mainPage h1 {
   color: black;
   margin-left: 5vw;
   text-align: center;
@@ -403,7 +401,7 @@ button:hover{
   width: 30%;
 }
 
-.mainPage .exploreNow{
+.mainPage .exploreNow {
   padding: 0.2rem 0.5rem;
   margin-left: 15vw;
   border: 1px solid transparent;
@@ -416,15 +414,14 @@ button:hover{
   text-decoration: none;
 }
 
-.exploreNow:hover{
+.exploreNow:hover {
   border: 1px solid rgb(255, 51, 0);
   color: rgb(255, 51, 0);
   background-color: transparent;
 }
 
-
 /* //////////////////FOOTER PAGE DESIGN//////////////////////// */
-.footer{
+.footer {
   width: 100%;
   height: 15vh;
   position: absolute;
@@ -433,18 +430,18 @@ button:hover{
   margin-top: 3rem;
 }
 
-.footer .tagline img{
+.footer .tagline img {
   width: 10%;
 }
 
-.footer .tagline h1{
+.footer .tagline h1 {
   font-size: 1.9rem;
   color: black;
   margin-right: 0.5rem;
   margin-top: 1.5rem;
 }
 
-.footer .tagline{
+.footer .tagline {
   display: flex;
   justify-content: center;
   align-items: center;
