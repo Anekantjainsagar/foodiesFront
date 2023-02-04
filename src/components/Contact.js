@@ -11,7 +11,7 @@ const Contact = () => {
   const postData = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/contact", {
+    const res = await fetch("https://foodies-d3kg.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
