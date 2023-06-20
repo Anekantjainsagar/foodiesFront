@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/foodiesFront/static/css/main.ce672b00.css",
+    "main.js": "/foodiesFront/static/js/main.c9f3ae76.js",
+    "static/media/ezgif.com-gif-maker.gif": "/foodiesFront/static/media/ezgif.com-gif-maker.9fb8071c3b6bfd2d0bea.gif",
+    "index.html": "/foodiesFront/index.html",
+    "main.ce672b00.css.map": "/foodiesFront/static/css/main.ce672b00.css.map",
+    "main.c9f3ae76.js.map": "/foodiesFront/static/js/main.c9f3ae76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce672b00.css",
+    "static/js/main.c9f3ae76.js"
+  ]
+}
